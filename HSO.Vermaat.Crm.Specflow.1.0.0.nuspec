@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>HSO.Vermaat.Crm.Specflow</id>
+    <version>1.0.0</version>
+    <title>HSO.Vermaat.Crm.Specflow</title>
+    <authors>VssAdministrator</authors>
+    <owners>VssAdministrator</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Description</description>
+    <copyright>Copyright © 2019</copyright>
+    <dependencies>
+      <dependency id="DotNetSeleniumExtras.WaitHelpers" version="3.11.0" />
+      <dependency id="Dynamics365.UIAutomation.Api" version="9.1.0.6210" />
+      <dependency id="Microsoft.CrmSdk.CoreAssemblies" version="9.0.2.21" />
+      <dependency id="Microsoft.CrmSdk.Deployment" version="9.0.2.21" />
+      <dependency id="Microsoft.CrmSdk.Workflow" version="9.0.2.21" />
+      <dependency id="Microsoft.CrmSdk.XrmTooling.CoreAssembly" version="9.1.0.25" />
+      <dependency id="Microsoft.IdentityModel" version="7.0.0" />
+      <dependency id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="5.2.5" />
+      <dependency id="MSTest.TestFramework" version="1.4.0" />
+      <dependency id="Newtonsoft.Json" version="12.0.2" />
+      <dependency id="Selenium.Chrome.WebDriver" version="77.0.0" />
+      <dependency id="Selenium.WebDriver" version="3.141.0" />
+      <dependency id="SpecFlow" version="3.0.225" />
+      <dependency id="System.Security.Cryptography.Algorithms" version="4.3.1" />
+      <dependency id="System.Security.Cryptography.X509Certificates" version="4.3.2" />
+      <dependency id="System.Threading.Tasks.Extensions" version="4.5.3" />
+      <dependency id="System.ValueTuple" version="4.5.0" />
+      <dependency id="Z.Expressions.Eval" version="2.9.54" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Vermaat.Crm.Specflow\bin\Debug\Vermaat.Crm.Specflow.dll" target="lib\net472\Vermaat.Crm.Specflow.dll" />
+  </files>
+</package>
